@@ -5,6 +5,7 @@ import ChannelDetails from "./ChannelDetails";
 import SearchFeed from "./SearchFeed";
 import SearchBar from "./SearchBar";
 import SideBar from "./SideBar";
+import Videos from "./Videos";
 
 export {
   Feed,
@@ -14,4 +15,5 @@ export {
   Navbar,
   SearchBar,
   SideBar,
+  Videos,
 };
