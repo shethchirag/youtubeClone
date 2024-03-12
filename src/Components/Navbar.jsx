@@ -16,7 +16,7 @@ function Navbar() {
         justifyContent: "space-between",
       }}
     >
-      <Link>
+      <Link to="/">
         <img src={logo} alt="logo" height={45} />
       </Link>
       <SearchBar />

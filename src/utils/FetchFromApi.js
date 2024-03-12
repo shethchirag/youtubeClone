@@ -3,8 +3,10 @@ const BASE_URL = "https://youtube-v31.p.rapidapi.com";
 const options = {
   url: BASE_URL,
   params: {
-    part: "snippet",
+    part: "snippet,id",
     videoId: "M7FIvfx5J10",
+    order: "date",
+    maxResults: "50",
   },
   headers: {
     "X-RapidAPI-Key": import.meta.env.VITE_APP_YOUTUBE_TOKEN,

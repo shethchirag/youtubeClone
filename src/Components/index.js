@@ -6,6 +6,8 @@ import SearchFeed from "./SearchFeed";
 import SearchBar from "./SearchBar";
 import SideBar from "./SideBar";
 import Videos from "./Videos";
+import ChannelCard from "./ChannelCard";
+import VideoCard from "./VideoCard";
 
 export {
   Feed,
@@ -16,4 +18,6 @@ export {
   SearchBar,
   SideBar,
   Videos,
+  VideoCard,
+  ChannelCard,
 };
